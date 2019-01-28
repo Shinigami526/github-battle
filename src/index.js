@@ -1,8 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.css';
+import Entry from './components/Exercise_props'
 import App from './App';
-import Entry from './components/index'
+import  MapandFilter  from './components/Exercise_map';
 
 
-render(<App />, document.getElementById('root'))
+
+render(<MapandFilter />, document.getElementById('root'))
